@@ -1,0 +1,13 @@
+
+    Given a table containing a set of 10 employees with respective fields:
+    ID 	Name 	Age 	Designation 	Department 	Reporting To
+    Show all employee data
+    Process the query:
+        Get field value to compare, comparison operator as input
+            If the field value is age (int data type), supported comparators: >, <, !=, ==
+            If the field value is of string data type, supported comparators: ‘startswith’, ‘contains’, ‘endswith’, ‘notcontains’, ‘equals’ and ‘notequals’.
+        Use ‘AND’ in default for queries with multiple checks.
+        Eg: age > 30 and age < 50 and department contains finance and reporting to A
+    Show the reporting to hierarchy for the given employee name: J -> I -> F -> D -> C -> B-> A
+    Show the employees reporting to the given manager.
+    Show summary of Department, Designation, ReportingTo.
